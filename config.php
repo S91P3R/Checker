@@ -1,10 +1,19 @@
 <?php
 declare(strict_types=1);
 
-const DB_HOST = 'sql103.infinityfree.com';
-const DB_PORT = 3306;
-const DB_NAME = 'if0_43151253_relax';
-const DB_USER = 'if0_43151253';
-const DB_PASS = 'avN3SoHR9Sw';
-const APP_NAME = 'D3M09 Login';
-const SESSION_NAME = 'd3m09_session';
+$dbName = 'if0_43151253_relax';
+$nameFile = __DIR__ . '/db_name.txt';
+if (is_file($nameFile)) {
+    $candidate = trim((string) file_get_contents($nameFile));
+    if ($candidate !== '') {
+        $dbName = $candidate;
+    }
+}
+
+define('DB_HOST', 'sql103.infinityfree.com');
+define('DB_PORT', 3306);
+define('DB_NAME', $dbName);
+define('DB_USER', 'if0_43151253');
+define('DB_PASS', 'avN3SoHR9Sw');
+define('APP_NAME', 'D3M09 Login');
+define('SESSION_NAME', 'd3m09_session');
