@@ -8,8 +8,8 @@ require_login();
 
 $message = '';
 $error = '';
-$defaultDb = 'if0_43151253_relax';
-$defaultUser = '';
+$defaultDb = 'if0_43263385_S91P3R';
+$defaultUser = 'S91P3R';
 if (is_file(__DIR__ . '/db_name.txt')) {
     $candidate = trim((string) file_get_contents(__DIR__ . '/db_name.txt'));
     if ($candidate !== '') {
