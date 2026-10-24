@@ -212,7 +212,6 @@ footer{border-top:1px solid var(--line);background:rgba(255,255,255,.7)}
     </a>
     <div class="header-actions">
       <span class="count-pill"><span class="count-dot" aria-hidden="true"></span>Secure access</span>
-      <a class="btn btn-ghost" href="/register.php">Create account</a>
     </div>
   </div>
 </header>
@@ -254,7 +253,6 @@ footer{border-top:1px solid var(--line);background:rgba(255,255,255,.7)}
           Sign in
         </button>
       </form>
-      <p class="card-foot">No account yet? <a href="/register.php">Create one</a></p>
     </div>
   </div>
 </main>

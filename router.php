@@ -161,7 +161,6 @@ foreach ([
 if ($path === '/format-fixer.php' || $path === '/format-fixer') { require __DIR__ . '/format-fixer.php'; return true; }
 
 if (in_array($path, ['/login', '/login.php'], true)) { require __DIR__ . '/login.php'; return true; }
-if (in_array($path, ['/register', '/register.php'], true)) { require __DIR__ . '/register.php'; return true; }
 if (in_array($path, ['/dashboard', '/dashboard.php'], true)) { require __DIR__ . '/dashboard.php'; return true; }
 if (in_array($path, ['/logout', '/logout.php'], true)) { require __DIR__ . '/logout.php'; return true; }
 

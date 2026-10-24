@@ -1,18 +1,1 @@
-[
-    {
-        "username": "01307459173",
-        "password": "182046",
-        "token": "b2142f19-65f7-4eb5-9d14-aeae43caca43",
-        "details": "account: 1307459173 | mobile: 130745**** | club: VIP1",
-        "vip": 2,
-        "changed_at": "2026-10-20T22:11:37+00:00"
-    },
-    {
-        "username": "01327777771",
-        "password": "777771",
-        "token": "66cb1359-0f0f-4e84-9365-160f7f52f6d5",
-        "details": "account: 1327777771 | mobile: 132777**** | email: iby*************** | club: VIP1",
-        "vip": 2,
-        "changed_at": "2026-10-20T22:11:39+00:00"
-    }
-]
+[]
